@@ -25,7 +25,7 @@ function showData(data){
         var newDiv = document.createElement('div');
         newDiv.innerHTML = `<div class="card" style="width: 18rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title"> <b> Card Title: </b> <span class="title-style">${data.meals[i].strMeal}  </span> </h5>
+                                    <h5 class="card-title"> <b> Meal Title: </b> <span class="title-style">${data.meals[i].strMeal}  </span> </h5>
                                     <img class='img-style' src="${data.meals[i].strMealThumb}" >
                                     <div class="button">
                                         <a href="#" class="btn btn-primary">Order Now</a>
