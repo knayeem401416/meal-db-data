@@ -1,0 +1,32 @@
+.meal{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    margin: 10%;
+    height: 90%;
+}
+
+.title-style{
+    font-weight: 900;
+    font-size: 18px;
+    background-color: rgb(40, 239, 253);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.img-style{
+   width: 250px;
+   margin: 5px;
+}
+
+.button{
+    text-align: center;
+    margin: 5px;
+}
